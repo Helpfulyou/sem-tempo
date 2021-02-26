@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+  <ion-buttons slot="secondary">
+  </ion-buttons>
+  <ion-title><ion-icon name="logo-web-component"></ion-icon> Berg Finanças</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+    <ion-card-title><ion-icon name="cash-outline"></ion-icon> Conta</ion-card-title>
+    <ion-card-subtitle>Aqui esta o seu saldo atual</ion-card-subtitle>
+  </ion-card-header>
+    <ion-card-content><h1>$55,50</h1></ion-card-content>
+  </ion-card>
+  
+    <ion-card>
+        <ion-card-header>
+          <ion-card-title><ion-icon name="alert-outline"></ion-icon>Despesas</ion-card-title>
+          <ion-card-subtitle>Aqui estão seus gastos mensais</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <canvas id="myChart"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
